@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OKw9LMHMdDw=",
+  "dgSpecHash": "9QJ4fQXwQOc=",
   "success": true,
-  "projectFilePath": "/Users/rishabhpandey/Documents/Project/NewMAUiApp/NewMAUiApp.csproj",
+  "projectFilePath": "/Users/rishabhpandey/Documents/GitHub/MyTestRepo/NewMAUiApp/NewMAUiApp.csproj",
   "expectedPackageFiles": [
     "/Users/rishabhpandey/.nuget/packages/googlegson/2.10.1.4/googlegson.2.10.1.4.nupkg.sha512",
     "/Users/rishabhpandey/.nuget/packages/microsoft.extensions.configuration/9.0.5/microsoft.extensions.configuration.9.0.5.nupkg.sha512",

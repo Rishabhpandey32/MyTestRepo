@@ -27424,11 +27424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rishabhpandey/Documents/Project/NewMAUiApp/NewMAUiApp.csproj",
+      "projectUniqueName": "/Users/rishabhpandey/Documents/GitHub/MyTestRepo/NewMAUiApp/NewMAUiApp.csproj",
       "projectName": "NewMAUiApp",
-      "projectPath": "/Users/rishabhpandey/Documents/Project/NewMAUiApp/NewMAUiApp.csproj",
+      "projectPath": "/Users/rishabhpandey/Documents/GitHub/MyTestRepo/NewMAUiApp/NewMAUiApp.csproj",
       "packagesPath": "/Users/rishabhpandey/.nuget/packages/",
-      "outputPath": "/Users/rishabhpandey/Documents/Project/NewMAUiApp/obj/",
+      "outputPath": "/Users/rishabhpandey/Documents/GitHub/MyTestRepo/NewMAUiApp/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
