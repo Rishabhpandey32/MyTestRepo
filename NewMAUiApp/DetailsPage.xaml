@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewMAUiApp.DetailsPage"
+             xmlns:VM="clr-namespace:NewMAUiApp.ViewModels"
+             Title="DetailsPage">
+             <ContentPage.BindingContext>
+                <VM:ProductDetailViewModel x:Name="DVM"></VM:ProductDetailViewModel>
+             </ContentPage.BindingContext>
+    <VerticalStackLayout Padding="10">
+      <Grid>
+         <Image Source="{Binding ImageUrl}" HeightRequest="300" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Image>
+         <Image Margin="10" Source="share.png" HeightRequest="30" WidthRequest="30" VerticalOptions="Start" HorizontalOptions="End">
+            <Image.GestureRecognizers>
+               <TapGestureRecognizer Command="{Binding ShareCommand}"></TapGestureRecognizer>
+            </Image.GestureRecognizers>
+         </Image>
+         </Grid>
+         <Label Text="title : "></Label>
+         <Label Text="{Binding Title}"></Label>
+          <Label Text="Summary : "></Label>
+         <Label Text="{Binding Summary}"></Label>
+          <Label Text="Description : "></Label>
+         <Label Text="{Binding Description}"></Label>
+          <Label Text="Price : "></Label>
+         <Label Text="{Binding Price}"></Label>
+      
+    </VerticalStackLayout>
+</ContentPage>
