@@ -21,8 +21,8 @@ public class ProductDetailViewModel : BindableObject
         {
             await Share.Default.RequestAsync(new ShareTextRequest
             {
-    Title = "Share ",
-    Text = Title+ " , " +Summary+" , "+ Price
+    Text = "Share ",
+    Title = Title+ " , " +Summary+" , "+ Price
 });
         });
 
